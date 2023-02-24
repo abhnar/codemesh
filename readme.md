@@ -8,11 +8,11 @@
 
 
 #### MSYS2 MINGW64
-	g++ -I include src/*.cpp -fopenmp -O2
+	g++ -I include src/*.cpp -fopenmp -O2 -o cod
 
 
 ### Linux (Tested under windows WSL)
-	g++ -I include src/*.cpp -fopenmp -O2
+	g++ -I include src/*.cpp -fopenmp -O2 -o cod
 
 
 ## Usage
