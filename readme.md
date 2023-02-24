@@ -1,8 +1,8 @@
-## Code: Offset Mesh
+# Code: Offset Mesh
 
 ## Compile Instructions
 
-### Under Windows
+###  Windows
 #### Visual Studio Build Tool
 	cl /EHsc /I include src\*.cpp /std:c++17 /Fe:cod.exe /O2 /openmp && del *.obj
 
@@ -11,7 +11,7 @@
 	g++ -I include src/*.cpp -fopenmp -O2
 
 
-#### Linux (Tested under windows WSL)
+### Linux (Tested under windows WSL)
 	g++ -I include src/*.cpp -fopenmp -O2
 
 
