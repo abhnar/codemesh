@@ -3,7 +3,7 @@
 ## Compile Instructions
 
 ###  Windows
-#### Visual Studio Build Tool
+#### Visual Studio Build Tools
 	cl /EHsc /I include src\*.cpp /std:c++17 /Fe:cod.exe /O2 /openmp && del *.obj
 
 
@@ -25,7 +25,7 @@
 	output.stl - Mesh that is offset by distance d
 
 ## Yet to Implement
-	Constrained Delauny Triangulation, to fill the hoe created by deleted triangles.
+	Constrained Delauny Triangulation, to fill the hole created by deleted triangles.
 
 ### Example
 	cod mesh\curve.stl 0.5 
